@@ -48,6 +48,7 @@ export class ProduitService {
     return this.httpClient.delete(this.baseUrl + '/produits/' + id).pipe(
       catchError((error) => {
         console.log(error);
+        alert('Erreur lors de la suppression du produit');
         return throwError(() => error)
       })
     )
