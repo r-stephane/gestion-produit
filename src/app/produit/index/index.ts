@@ -24,7 +24,7 @@ export class Index {
   }
   deleteProduit(id: string) {
   // Demande de confirmation à l'utilisateur
-  const confirmed = window.confirm('Êtes-vous sûr de vouloir supprimer ce produit ?❌🛑');
+  const confirmed = window.confirm('Êtes-vous sûr de vouloir supprimer ce produit ?');
 
   if (confirmed) {
     this.produitService.delete(id).subscribe({

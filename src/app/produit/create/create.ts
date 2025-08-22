@@ -36,11 +36,5 @@ export class Create {
       this.router.navigateByUrl('produit');
     });
   }
-
-  // get f() {
-  //   return this.form.controls;
-  // }
-
-
 }
 

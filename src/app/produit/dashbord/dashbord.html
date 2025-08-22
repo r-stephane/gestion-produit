@@ -1,0 +1,47 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-white" href="#">Gestion de Produits</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+        
+        <li class="navbar-dark">
+          <button><a class="navbar-brand fw-bold text-muted" [routerLink]="'/produit'">Voir  les produits</a></button>
+        </li>
+        
+        
+
+
+        <!-- Dropdown -->
+        
+      </ul>
+
+      <!-- Barre de recherche -->
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Chercher" aria-label="Chercher">
+          <button><a class="navbar-brand fw-bold text-muted" [routerLink]="'/produit'">Chercher</a></button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenu principal -->
+<div class="container my-5">
+  <h1 class="text-center mb-4">Bienvenue sur l'application de la Gestion des Produits</h1>
+  <p class="text-center text-muted">Utilisez la barre de navigation pour explorer les fonctionnalités.</p>
+</div>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-3 mt-auto">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Mon Application - Tous droits réservés</p>
+  </div>
+</footer>
